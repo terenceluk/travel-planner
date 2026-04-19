@@ -4,6 +4,28 @@ A web app that calculates exactly when you need to leave home (or each stop) to 
 
 Enter your starting location, a date, and a list of stops with their required arrival times. The app chains each leg together and returns departure times for both **driving** and **transit** for every stop, with traffic severity badges and a connected schedule view.
 
+Live demo: https://terence-travel-planner.azurewebsites.net/
+
+Blog post: https://blog.terenceluk.com/2026/04/vibe-coding-a-smart-travel-planner-with-github-copilot.html
+
+---
+
+## Screenshots
+
+The blog post currently exposes three unique image assets. The light/dark mode image contains two screenshots side by side.
+
+### Light And Dark Mode
+
+![Travel Planner light and dark mode](https://blog.terenceluk.com/wp-content/uploads/2026/04/Light-and-Dark-Mode-1024x609.png)
+
+### Paris Trip Planning
+
+<img src="https://blog.terenceluk.com/wp-content/uploads/2026/04/Paris-Planning-653x1024.png" alt="Travel Planner itinerary form for a Paris trip" width="420" />
+
+### Paris Trip Results
+
+<img src="https://blog.terenceluk.com/wp-content/uploads/2026/04/Paris-Planning-Result-653x1024.png" alt="Travel Planner calculated results for a Paris trip" width="420" />
+
 ---
 
 ## Features
@@ -127,7 +149,7 @@ The app will be available on `http://localhost:3001` (or the port set in your `.
 2. **Pick a date** for your trip
 3. **Set a parking buffer** — extra minutes added before your arrival time so you have time to park and walk in (default: 5 min)
 4. **Add stops** — each stop needs:
-   - An optional label (e.g. "Doctor's Appointment")
+   - An optional label (e.g. "Breakfast")
    - An address (with autocomplete)
    - The time you need to *arrive by*
 5. Click **🚗 Calculate Departure Times**
