@@ -1,0 +1,17 @@
+{
+  "name": "Travel Planner",
+  "short_name": "Travel Planner",
+  "description": "Plan multi-stop trips and find out when to leave to arrive on time.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0f4f8",
+  "theme_color": "#3182ce",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
