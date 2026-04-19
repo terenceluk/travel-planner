@@ -75,7 +75,7 @@ export default function DestinationList({ destinations, onAdd, onRemove, onUpdat
               <input
                 className="input"
                 type="text"
-                placeholder="Label (e.g. Doctor's Appointment)"
+                placeholder="Label (e.g. Breakfast)"
                 value={dest.label}
                 onChange={e => onUpdate(dest.id, 'label', e.target.value)}
               />
